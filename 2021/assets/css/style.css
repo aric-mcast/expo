@@ -1333,7 +1333,8 @@ section {
 }
 
 .banner-one-btn a {
-    margin-right: 45px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .banner-video img {
@@ -2266,7 +2267,6 @@ button:focus {
 
 .feature-area-bg {
     padding: 100px 30px;
-    background: #fff;
 }
 
 #data-science .single-feature .media img {
@@ -5556,7 +5556,7 @@ Service-Details Page
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("../img/common/full-bg.jpg")no-repeat center center / cover;
+    background: url("../vid/Conceptual_Final.mp4")no-repeat center center / cover;
 }
 #thank-you-area:before {
     position: absolute;
@@ -5775,3 +5775,11 @@ preloder
     visibility: visible;
     top: 50%;
 }
+
+#bc-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }

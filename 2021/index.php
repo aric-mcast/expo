@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -35,7 +34,7 @@
     <link rel="icon" type="image/png" href="" />
 </head>
 
-<body>
+<body style="background: white;">
     <!--Start Preloder-->
     <div id="preloader">
         <div id="status">
@@ -56,7 +55,7 @@
                 <div class="plamb-responsive-menu">
                     <div class="logo">
                         <a href="index.php">
-                            R&I Expo
+                            <img src="./assets/img/logo.png" alt="R&I Expo" />
                         </a>
                     </div>
                 </div>
@@ -67,11 +66,11 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand " href="index.php">
-                            <h2 class=" text-white">R&I Expo</h2>
+                            <img src="./assets/img/logo.png" alt="R&I Expo" style="width:150px;" />
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav">
-				<li class="nav-item"><a class="nav-link" href="#Home"> Home</a> </li>
+                                <li class="nav-item"><a class="nav-link" href="#Home"> Home</a> </li>
                                 <li class="nav-item"><a class="nav-link" href="#areas"> Thematic Areas</a> </li>
                                 <li class="nav-item"><a class="nav-link" href="#contact"> Contact</a> </li>
                             </ul>
@@ -87,9 +86,12 @@
         </div>
     </div>
     <!-- Navbar Area End -->
+    <video autoplay muted loop id="bc-video">
+        <source src="./assets/vid/Conceptual_Final_Trim.mp4" type="video/mp4">
+      </video>
     <!-- Thank You Start -->
     <section id="thank-you-area">
-        <div class="container" id="Home" >
+        <div class="container" id="Home">
             <div class="row align-items-center justify-content-cente">
                 <div class="col-md-12 col-lg-6 offset-lg-3">
                     <div class="thank-you-content-left text-center">
@@ -102,10 +104,30 @@
             </div>
             <div class="row justify-content-center text-center ">
                 <div class="col-md-12 col-lg-6 animated">
-                	<a data-wow-duration="2.0s" data-wow-delay=".5s" target="blank"
+                    <a data-wow-duration="2.0s" data-wow-delay=".5s" target="blank"
                         href="https://forms.office.com/pages/responsepage.aspx?id=tutbJeivRU2sydx93JR5_mAuMKsDwX5PlxfC2cLVolFUNk9RUjZKNDk3NlIyTjUxRUVQTko4VkZKQi4u"
-                        class="wow fadeInUpBig btn btn-theme btn-block text-white"> <h2 class="text-white pt-2">REGISTER AS A PRESENTER</h2></a>
+                        class="wow fadeInUpBig btn btn-theme btn-block text-white">
+                        <h3 class="text-white pt-2">REGISTER AS A PRESENTER</h3>
+                    </a>
                 </div>
+                <div class="col-md-12 col-lg-12 animated"> <br /> </div>
+                <div class="col-md-12 col-lg-7 animated">
+                    <a data-wow-duration="2.0s" data-wow-delay=".8s" target="blank"
+                        href="https://forms.office.com/r/aUu3aWCS90"
+                        class="wow fadeInUpBig btn btn-theme btn-block text-white">
+                        <h3 class="text-white pt-2">INDUSTRY PARTNERS REGISTRATION</h3>
+                    </a>
+                </div>
+                <div class="col-md-12 col-lg-12 animated"> </div>
+                <div class="col-md-12 col-lg-6 animated text-center">
+                        <div class="banner-one-btn pt30 ">
+                            <a href="./assets/vid/Conceptual_Final.mp4" title="Youtube Video" class="banner-video video_btn wow fadeInUpBig text-white text-center" data-wow-duration="2.0s" data-wow-delay="1.0s" target="blank">
+                                <img src="assets/img/svg/play-button.svg" alt="icon" style="filter: brightness(0) invert(1);">
+                                Watch MRC Conceptual Render Video
+                            </a>    
+                        </div>
+                </div>
+                
             </div>
         </div>
     </section>
@@ -162,7 +184,7 @@
 
     <!-- data-science Area  Stat-->
     <section id="data-science">
-        <div class="container" id="areas" >
+        <div class="container" id="areas">
             <div class="feature-area-bg">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-md-12 col-sm-12 col-12">
@@ -198,7 +220,7 @@
                                     wearable sensor technology, while also hosting creative projects leading to the
                                     development of new methodologies in the performing arts, photography and graphic
                                     language. </p>
-                                 <a target="blank"
+                                <a target="blank"
                                     href="https://forms.office.com/pages/responsepage.aspx?id=tutbJeivRU2sydx93JR5_mAuMKsDwX5PlxfC2cLVolFUNk9RUjZKNDk3NlIyTjUxRUVQTko4VkZKQi4u"
                                     class="btn btn-theme">Get Started</a>
                             </div>
@@ -296,7 +318,7 @@
                                     areas. This thematic area also covers scientific research on photocatalysis and
                                     water research, as well the sustainability of local cultural heritage
                                 </p>
-                                <a  target="blank"
+                                <a target="blank"
                                     href="https://forms.office.com/pages/responsepage.aspx?id=tutbJeivRU2sydx93JR5_mAuMKsDwX5PlxfC2cLVolFUNk9RUjZKNDk3NlIyTjUxRUVQTko4VkZKQi4u"
                                     class="btn btn-theme">Get Started</a>
                             </div>
@@ -308,7 +330,7 @@
     </section>
     <!-- data-science Area  End-->
     <!-- Contact Area Start -->
-    <section id="contact">
+    <section id="contact" style="background: white;">
         <div class="map-content">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.836352901914!2d14.504858357433543!3d35.87752700784814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e5ac2d87c4891%3A0x48ee141582b02a26!2sMCAST!5e0!3m2!1sen!2smt!4v1635775420058!5m2!1sen!2smt"></iframe>
@@ -392,7 +414,7 @@
     <!-- Contact Area End -->
 
     <!--Footer Area Start -->
-    <footer id="footer" class="py100">
+    <footer id="footer" class="py100" style="background: white;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -433,12 +455,14 @@
                         <div class="footer-contact-area footer-list pt40">
                             <ul>
                                 <li>
-                                    <i class="icofont-location-pin"></i>MCAST,Triq Kordin, Raħal Ġdid, Paola, Malta  </li>
+                                    <i class="icofont-location-pin"></i>MCAST,Triq Kordin, Raħal Ġdid, Paola, Malta
+                                </li>
                                 <li>
                                     <i class="icofont-phone"></i><a href="tel:012-3-456-789">(+356) 23987522</a>
                                 </li>
                                 <li>
-                                    <i class="icofont-email"></i><a href="malto:expocommittee@mcast.edu.mt">expocommittee@mcast.edu.mt</a>
+                                    <i class="icofont-email"></i><a
+                                        href="malto:expocommittee@mcast.edu.mt">expocommittee@mcast.edu.mt</a>
                                 </li>
                             </ul>
                         </div>
@@ -449,26 +473,14 @@
         <div class="footer-bottom-img">
             <img src="assets/img/svg/footer.svg" alt="img">
         </div>
-    </footer>
-    <!--Footer Area End -->
-
-    <!--Copyright Area Start -->
-    <div class="copy-right">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="copy-text">
-                        <p>ARIC-MCAST © 2021. All Rights Reserved</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                    <div class="copy-icon text-lg-right">
-                        <ul>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <div class="copy-text">
+            <p>ARIC-MCAST © 2021. All Rights Reserved</p>
         </div>
+    </div>
+
+            <!--Copyright Area Start -->
+   
     </div>
     <!--Copyright Area End -->
     <!-- Backto-top-Button Start-->
@@ -477,6 +489,10 @@
         <i class="icofont-long-arrow-up"></i>
     </div>
     <!-- Backto-top-Button End-->
+    </footer>
+    <!--Footer Area End -->
+
+
     <!-- jQuery Min JS -->
     <script src="assets/js/jquery.min.js"></script>
     <!-- Popper Min JS -->
