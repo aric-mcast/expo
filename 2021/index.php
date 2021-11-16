@@ -31,7 +31,7 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css" />
     <title>MCAST - R&I Expo 2021</title>
-    <link rel="icon" type="image/png" href="" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
 </head>
 
 <body style="background: white;">
@@ -73,6 +73,7 @@
                                 <li class="nav-item"><a class="nav-link" href="#Home"> Home</a> </li>
                                 <li class="nav-item"><a class="nav-link" href="#areas"> Thematic Areas</a> </li>
                                 <li class="nav-item"><a class="nav-link" href="#contact"> Contact</a> </li>
+                                <li class="nav-item"><a class="nav-link" href="./program.php"> Programme</a> </li>
                             </ul>
                             <div class="other-option"> <a class="btn btn-theme" target="blank"
                                     href="https://forms.office.com/pages/responsepage.aspx?id=tutbJeivRU2sydx93JR5_mAuMKsDwX5PlxfC2cLVolFUNk9RUjZKNDk3NlIyTjUxRUVQTko4VkZKQi4u">

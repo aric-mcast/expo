@@ -32,7 +32,7 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css" />
     <title>MCAST - R&I Expo 2021</title>
-    <link rel="icon" type="image/png" href="" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
 </head>
 
 <body>
