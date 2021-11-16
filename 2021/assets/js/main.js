@@ -20,6 +20,10 @@
             meanScreenWidth: "991"
         });
 
+
+        var vid = document.getElementById("bc-video");
+        vid.playbackRate = 0.7;
+
     });
 
     // Logo Slider
