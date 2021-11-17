@@ -56,10 +56,11 @@
              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                  <div class="home-one-banner-content">
                      <h1>Programme </h1>
-                     <h2>Comming soon</h2>
-                     <p>
-                         
-                     </p>
+                     <h2>
+                         Comming soon
+                     </h2>
+                     <h3>R&I Expo 20th - 21st December</h3>
+                     
                      <div class="banner-one-btn pt30">
                         <a class="mt-5 btn btn-theme text-white" href="./index.php"> Home Page</a>
                     </div>

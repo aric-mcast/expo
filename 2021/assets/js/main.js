@@ -246,6 +246,32 @@
                 scrollTop: "0"
             }, 500);
         });
+
+        $('#home_btn').on('click', function () {
+            $("html, body").animate({
+                scrollTop: "0"
+            }, 500);
+        });
+        $('#about_btn').on('click', function () {
+            $("html, body").animate({
+                scrollTop: "900"
+            }, 500);
+        });
+        $('#areas_btn').on('click', function () {
+            $("html, body").animate({
+                scrollTop: "1500"
+            }, 500);
+        });
+        $('#contact_btn').on('click', function () {
+            $("html, body").animate({
+                scrollTop: "5350"
+            }, 500);
+        });
+        $('#venue_btn').on('click', function () {
+            $("html, body").animate({
+                scrollTop: "4400"
+            }, 500);
+        });
     });
 
     // preloder

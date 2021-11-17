@@ -63,21 +63,31 @@
         </div>
         <div id="home-thre-nav">
             <div class="plamb-nav">
-                <div class="container">
+                <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand " href="index.php">
                             <img src="./assets/img/logo.png" alt="R&I Expo" style="width:150px;" />
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav">
-                                <li class="nav-item"><a class="nav-link" href="#Home"> Home</a> </li>
-                                <li class="nav-item"><a class="nav-link" href="#areas"> Thematic Areas</a> </li>
-                                <li class="nav-item"><a class="nav-link" href="#contact"> Contact</a> </li>
+                                <li class="nav-item"><a class="nav-link" id="home_btn" href="#home"> Home</a> </li>
+                                <li class="nav-item"><a class="nav-link" id="about_btn" href="#about"> About</a> </li>
+                                <li class="nav-item"><a class="nav-link" id="areas_btn" href="#areas"> Thematic
+                                        Areas</a> </li>
+                                <li class="nav-item"><a class="nav-link" id="venue_btn" href="#venue"> Venue</a> </li>
+                                <li class="nav-item"><a class="nav-link" id="contact_btn" href="#contact"> Contact</a>
+                                </li>
                                 <li class="nav-item"><a class="nav-link" href="./program.php"> Programme</a> </li>
+
                             </ul>
-                            <div class="other-option"> <a class="btn btn-theme" target="blank"
+                            <div class="other-option">
+                                <a class="btn btn-theme" target="blank"
                                     href="https://forms.office.com/pages/responsepage.aspx?id=tutbJeivRU2sydx93JR5_mAuMKsDwX5PlxfC2cLVolFUNk9RUjZKNDk3NlIyTjUxRUVQTko4VkZKQi4u">
-                                    Presenter Registration
+                                    PRESENTER REGISTRATION
+                                </a>
+                                <a class="btn btn-theme" target="blank"
+                                    href="https://forms.office.com/pages/responsepage.aspx?id=tutbJeivRU2sydx93JR5_mAuMKsDwX5PlxfC2cLVolFUNk9RUjZKNDk3NlIyTjUxRUVQTko4VkZKQi4u">
+                                    INDUSTRY PARTNER REGISTRATION
                                 </a>
                             </div>
                         </div>
@@ -89,17 +99,22 @@
     <!-- Navbar Area End -->
     <video autoplay muted loop id="bc-video">
         <source src="./assets/vid/Conceptual_Final_Trim.mp4" type="video/mp4">
-      </video>
+    </video>
     <!-- Thank You Start -->
     <section id="thank-you-area">
         <div class="container" id="Home">
             <div class="row align-items-center justify-content-cente">
                 <div class="col-md-12 col-lg-6 offset-lg-3">
                     <div class="thank-you-content-left text-center">
+
+                        <img src="./assets/img/logo.png" alt="Research & Innovation Expo 2021"
+                            style="filter: brightness(0) invert(1);" />
+                        <!-- <h2 class="text-white">Research & Innovation Expo 2021</h2> -->
                         <h1 class="text-white">MCAST</h1>
-                        <h2 class="text-white">Research & Innovation Expo 2021</h2>
                         <p class="text-white lead">The R&I Expo showcases MCAST’s drive on Research and Innovation.</p>
-                        <div id="clock" class="countdown-wrap my-5"></div>
+                        <div id="clock" class="countdown-wrap mt-5 mb-3"></div>
+                        <h3 class="text-white mb-5">20th - 21st December</h3>
+
                     </div>
                 </div>
             </div>
@@ -121,14 +136,17 @@
                 </div>
                 <div class="col-md-12 col-lg-12 animated"> </div>
                 <div class="col-md-12 col-lg-6 animated text-center">
-                        <div class="banner-one-btn pt30 ">
-                            <a href="./assets/vid/Conceptual_Final.mp4" title="Youtube Video" class="banner-video video_btn wow fadeInUpBig text-white text-center" data-wow-duration="2.0s" data-wow-delay="1.0s" target="blank">
-                                <img src="assets/img/svg/play-button.svg" alt="icon" style="filter: brightness(0) invert(1);">
-                                Watch MRC Conceptual Render Video
-                            </a>    
-                        </div>
+                    <div class="banner-one-btn pt30 ">
+                        <a href="./assets/vid/Conceptual_Final.mp4" title="Youtube Video"
+                            class="banner-video video_btn wow fadeInUpBig text-white text-center"
+                            data-wow-duration="2.0s" data-wow-delay="1.0s" target="blank">
+                            <img src="assets/img/svg/play-button.svg" alt="icon"
+                                style="filter: brightness(0) invert(1);">
+                            Watch MRC Conceptual Render Video
+                        </a>
+                    </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -184,7 +202,7 @@
 
 
     <!-- data-science Area  Stat-->
-    <section id="data-science">
+    <section id="data-science" class="bg-color">
         <div class="container" id="areas">
             <div class="feature-area-bg">
                 <div class="row justify-content-center">
@@ -330,8 +348,111 @@
         </div>
     </section>
     <!-- data-science Area  End-->
+
+    <!--Testimonials Area Start -->
+    <section id="one-testimonial" class="py100 bg-color">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title-center text-center pb30">
+                        <h3 class="pb10">Venue</h3>
+                        <h2>MCAST Resources Center</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="./assets/img/mrc/1.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./assets/img/mrc/2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./assets/img/mrc/3.jpg" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./assets/img/mrc/4.jpg" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./assets/img/mrc/6.jpg" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+
+                                <a href="./assets/vid/Conceptual_Final.mp4" title="MRC Render Video"
+                                    class="video_btn text-white text-center" target="blank">
+                                    <img class="d-block w-100" src="./assets/img/mrc/video.png" alt="Third slide">
+                                </a>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!-- <div class="testimonials-slider-area owl-carousel owl-theme">
+                        <div class="testimonial-box box-shadow border-radius">
+                            <div class="testimonial-comment">
+                                <p>
+                                    <img src="./assets/img/mrc/4.jpg" alt="MRC image" style="width: 550px;">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="testimonial-box box-shadow border-radius">
+                            <div class="testimonial-comment">
+                                <p>
+                                    <img src="./assets/img/mrc/2.jpg" alt="MRC image">
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="col-lg-12 text-center">
+                    <div class="banner-one-btn pt30 text-center">
+                        <a href="./assets/vid/Conceptual_Final.mp4" title="MRC Conceptual Render Video"
+                            class="banner-video video_btn text-dark text-center" target="blank">
+                            <img src="assets/img/svg/play-button.svg" alt="icon">
+                            Watch MRC Conceptual Render Video
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Testimonials Area End -->
+
+
+
+
     <!-- Contact Area Start -->
-    <section id="contact" style="background: white;">
+    <section id="" style="background: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title-center text-center pb30">
+                        <h3 class="pb10">Contact</h3>
+                        <h2>Get in Touch</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="map-content">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.836352901914!2d14.504858357433543!3d35.87752700784814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e5ac2d87c4891%3A0x48ee141582b02a26!2sMCAST!5e0!3m2!1sen!2smt!4v1635775420058!5m2!1sen!2smt"></iframe>
@@ -415,12 +536,12 @@
     <!-- Contact Area End -->
 
     <!--Footer Area Start -->
-    <footer id="footer" class="py100" style="background: white;">
+    <footer id="footer" class="py100 bg-color">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                     <div class="footer-about-area">
-                        <h1> R&I EXPO</h1>
+                        <img src="./assets/img/logo-lg.png" alt="logo lg" />
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-6 col-6">
@@ -475,21 +596,21 @@
             <img src="assets/img/svg/footer.svg" alt="img">
         </div>
         <div class="container">
-        <div class="copy-text">
-            <p>ARIC-MCAST © 2021. All Rights Reserved</p>
+            <div class="copy-text">
+                <p>ARIC-MCAST © 2021. All Rights Reserved</p>
+            </div>
         </div>
-    </div>
 
-            <!--Copyright Area Start -->
-   
-    </div>
-    <!--Copyright Area End -->
-    <!-- Backto-top-Button Start-->
-    <div class="go-top">
-        <i class="fas fa-chevron-up"></i>
-        <i class="icofont-long-arrow-up"></i>
-    </div>
-    <!-- Backto-top-Button End-->
+        <!--Copyright Area Start -->
+
+        </div>
+        <!--Copyright Area End -->
+        <!-- Backto-top-Button Start-->
+        <div class="go-top">
+            <i class="fas fa-chevron-up"></i>
+            <i class="icofont-long-arrow-up"></i>
+        </div>
+        <!-- Backto-top-Button End-->
     </footer>
     <!--Footer Area End -->
 
