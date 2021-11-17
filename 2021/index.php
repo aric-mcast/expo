@@ -143,7 +143,7 @@
                     </a>
                 </div>
                 <div class="col-md-12 col-lg-12 animated"> </div>
-                <div class="col-md-12 col-lg-6 animated text-center">
+                <div class="col-md-12 col-lg-6 animated text-center pb-5">
                     <div class="banner-one-btn pt30 ">
                         <a href="./assets/vid/Conceptual_Final.mp4" title="Youtube Video"
                             class="banner-video video_btn wow fadeInUpBig text-white text-center"
