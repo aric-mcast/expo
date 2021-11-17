@@ -63,7 +63,7 @@
         </div>
         <div id="home-thre-nav">
             <div class="plamb-nav">
-                <div class="container-fluid">
+                <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand " href="index.php">
                             <img src="./assets/img/logo.png" alt="R&I Expo" style="width:150px;" />
@@ -72,34 +72,32 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item"><a class="nav-link" id="home_btn" href="#home"> Home</a> </li>
                                 <li class="nav-item"><a class="nav-link" id="about_btn" href="#about"> About</a> </li>
-                                <li class="nav-item"><a class="nav-link" id="areas_btn" href="#areas"> Thematic Areas</a> </li>
+                                <li class="nav-item"><a class="nav-link" id="areas_btn" href="#areas"> Thematic
+                                        Areas</a> </li>
                                 <li class="nav-item"><a class="nav-link" id="venue_btn" href="#venue"> Venue</a> </li>
                                 <li class="nav-item"><a class="nav-link" id="contact_btn" href="#contact"> Contact</a>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="./program.php"> Programme</a> </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        Registration
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"> 
+                                            <a target="blank" href="https://forms.office.com/r/xQwS63Ct2A" class="nav-link">
+                                                PRESENTER
+                                            </a>
+                                        </li>
+                                        <li class="nav-item"> 
+                                            <a target="blank" href="https://forms.office.com/r/aUu3aWCS90" class="nav-link">
+                                                INDUSTRY PARTNER
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
 
                             </ul>
-                            <div class="other-option d-md-none d-lg-block">
-                                <a class="btn btn-theme" target="blank"
-                                    href="https://forms.office.com/pages/responsepage.aspx?id=tutbJeivRU2sydx93JR5_mAuMKsDwX5PlxfC2cLVolFUNk9RUjZKNDk3NlIyTjUxRUVQTko4VkZKQi4u">
-                                    PRESENTER REGISTRATION
-                                </a>
-
-                            </div>
-                            <div class="other-option d-md-none d-lg-block">
-                                <a class="btn btn-theme" target="blank"
-                                    href="https://forms.office.com/pages/responsepage.aspx?id=tutbJeivRU2sydx93JR5_mAuMKsDwX5PlxfC2cLVolFUNk9RUjZKNDk3NlIyTjUxRUVQTko4VkZKQi4u">
-                                    INDUSTRY PARTNER REGISTRATION
-                                </a>
-
-                            </div>
-
-
-
-                            <!-- <a class="btn btn-theme" target="blank"
-                                    href="https://forms.office.com/pages/responsepage.aspx?id=tutbJeivRU2sydx93JR5_mAuMKsDwX5PlxfC2cLVolFUNk9RUjZKNDk3NlIyTjUxRUVQTko4VkZKQi4u">
-                                    INDUSTRY PARTNER REGISTRATION
-                                </a> -->
                         </div>
                     </nav>
                 </div>
@@ -116,14 +114,14 @@
             <div class="row align-items-center justify-content-cente">
                 <div class="col-md-12 col-lg-6 offset-lg-3">
                     <div class="thank-you-content-left text-center mt-5">
-                    <h1 class="text-white">MCAST</h1>
-                        <!-- <img class="mt-5" src="./assets/img/logo.png" alt="Research & Innovation Expo 2021"
-                            style="filter: brightness(0) invert(1);" /> -->
-                        <h2 class="text-white">Research & Innovation Expo 2021</h2>
-                        
-                        <p class="text-white lead">The R&I Expo showcases MCAST’s drive on Research and Innovation.</p>
+                        <h1 class="text-white mt-5">MCAST</h1>
+                        <!-- <img src="./assets/img/logo-lg.png" alt="Research & Innovation Expo 2021" style="filter: brightness(0) invert(1);" /> -->
+                         <h2 class="text-white">Research & Innovation Expo 2021</h2>
+
+                        <p class="text-white lead">The R&I Expo showcases MCAST’s drive on Research and
+                            Innovation.</p>
                         <div id="clock" class="countdown-wrap mt-5 mb-3"></div>
-                        <h3 class="text-white mb-5">20th - 21st December</h3>
+                        <h4 class="text-white mb-5">20th - 21st December</h4>
 
                     </div>
                 </div>
