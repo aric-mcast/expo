@@ -72,11 +72,9 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item"><a class="nav-link" id="home_btn" href="#home"> Home</a> </li>
                                 <li class="nav-item"><a class="nav-link" id="about_btn" href="#about"> About</a> </li>
-                                <li class="nav-item"><a class="nav-link" id="areas_btn" href="#areas"> Thematic
-                                        Areas</a> </li>
+                                <li class="nav-item"><a class="nav-link" id="areas_btn" href="#areas"> Thematic Areas</a> </li>
                                 <li class="nav-item"><a class="nav-link" id="venue_btn" href="#venue"> Venue</a> </li>
-                                <li class="nav-item"><a class="nav-link" id="contact_btn" href="#contact"> Contact</a>
-                                </li>
+                                <li class="nav-item"><a class="nav-link" id="contact_btn" href="#contact"> Contact</a> </li>
                                 <li class="nav-item"><a class="nav-link" href="./program.php"> Programme</a> </li>
 
                             </ul>
@@ -102,12 +100,12 @@
     </video>
     <!-- Thank You Start -->
     <section id="thank-you-area">
-        <div class="container" id="Home">
+        <div class="container" id="home">
             <div class="row align-items-center justify-content-cente">
                 <div class="col-md-12 col-lg-6 offset-lg-3">
                     <div class="thank-you-content-left text-center">
 
-                        <img src="./assets/img/logo.png" alt="Research & Innovation Expo 2021"
+                        <img class="mt-5" src="./assets/img/logo.png" alt="Research & Innovation Expo 2021"
                             style="filter: brightness(0) invert(1);" />
                         <!-- <h2 class="text-white">Research & Innovation Expo 2021</h2> -->
                         <h1 class="text-white">MCAST</h1>
@@ -152,8 +150,8 @@
     </section>
     <!-- Thank You End -->
     <!-- Abouts Area Start -->
-    <section id="about-us-area-home4" class="py100 bg-color">
-        <div class="container">
+    <section id="about-us-area-home4"  class="py100 bg-color">
+        <div class="container" id="about">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="home4-about-img  js-tilt">
@@ -351,7 +349,7 @@
 
     <!--Testimonials Area Start -->
     <section id="one-testimonial" class="py100 bg-color">
-        <div class="container-fluid">
+        <div class="container-fluid" id="venue">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title-center text-center pb30">
@@ -442,7 +440,7 @@
 
 
     <!-- Contact Area Start -->
-    <section id="" style="background: white;">
+    <section id="contact" style="background: white;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
