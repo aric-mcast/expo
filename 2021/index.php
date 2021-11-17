@@ -109,7 +109,7 @@
     </div>
     <!-- Navbar Area End -->
     <video autoplay muted loop id="bc-video">
-        <source src="./assets/vid/Conceptual_Final_Trim.mp4" type="video/mp4">
+        <source src="./assets/vid/Conceptual_Final_Trim_1.mp4" type="video/mp4">
     </video>
     <!-- Thank You Start -->
     <section id="thank-you-area">
