@@ -147,7 +147,7 @@
                     <div class="banner-one-btn pt30 ">
                         <a href="./assets/vid/Conceptual_Final.mp4" title="Youtube Video"
                             class="banner-video video_btn wow fadeInUpBig text-white text-center"
-                            data-wow-duration="2.0s" data-wow-delay="1.0s" target="blank">
+                            data-wow-duration="1.0s" data-wow-delay="0.5s" target="blank">
                             <img src="assets/img/svg/play-button.svg" alt="icon"
                                 style="filter: brightness(0) invert(1);">
                             Watch MRC Conceptual Render Video
