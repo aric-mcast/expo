@@ -72,22 +72,35 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item"><a class="nav-link" id="home_btn" href="#home"> Home</a> </li>
                                 <li class="nav-item"><a class="nav-link" id="about_btn" href="#about"> About</a> </li>
-                                <li class="nav-item"><a class="nav-link" id="areas_btn" href="#areas"> Thematic Areas</a> </li>
+                                <li class="nav-item"><a class="nav-link" id="areas_btn" href="#areas"> Thematic
+                                        Areas</a> </li>
                                 <li class="nav-item"><a class="nav-link" id="venue_btn" href="#venue"> Venue</a> </li>
-                                <li class="nav-item"><a class="nav-link" id="contact_btn" href="#contact"> Contact</a> </li>
+                                <li class="nav-item"><a class="nav-link" id="contact_btn" href="#contact"> Contact</a>
+                                </li>
                                 <li class="nav-item"><a class="nav-link" href="./program.php"> Programme</a> </li>
 
                             </ul>
-                            <div class="other-option">
+                            <div class="other-option d-md-none d-lg-block">
                                 <a class="btn btn-theme" target="blank"
                                     href="https://forms.office.com/pages/responsepage.aspx?id=tutbJeivRU2sydx93JR5_mAuMKsDwX5PlxfC2cLVolFUNk9RUjZKNDk3NlIyTjUxRUVQTko4VkZKQi4u">
                                     PRESENTER REGISTRATION
                                 </a>
+
+                            </div>
+                            <div class="other-option d-md-none d-lg-block">
                                 <a class="btn btn-theme" target="blank"
                                     href="https://forms.office.com/pages/responsepage.aspx?id=tutbJeivRU2sydx93JR5_mAuMKsDwX5PlxfC2cLVolFUNk9RUjZKNDk3NlIyTjUxRUVQTko4VkZKQi4u">
                                     INDUSTRY PARTNER REGISTRATION
                                 </a>
+
                             </div>
+
+
+
+                            <!-- <a class="btn btn-theme" target="blank"
+                                    href="https://forms.office.com/pages/responsepage.aspx?id=tutbJeivRU2sydx93JR5_mAuMKsDwX5PlxfC2cLVolFUNk9RUjZKNDk3NlIyTjUxRUVQTko4VkZKQi4u">
+                                    INDUSTRY PARTNER REGISTRATION
+                                </a> -->
                         </div>
                     </nav>
                 </div>
@@ -103,7 +116,7 @@
         <div class="container" id="home">
             <div class="row align-items-center justify-content-cente">
                 <div class="col-md-12 col-lg-6 offset-lg-3">
-                    <div class="thank-you-content-left text-center">
+                    <div class="thank-you-content-left text-center mt-5">
 
                         <img class="mt-5" src="./assets/img/logo.png" alt="Research & Innovation Expo 2021"
                             style="filter: brightness(0) invert(1);" />
@@ -150,7 +163,7 @@
     </section>
     <!-- Thank You End -->
     <!-- Abouts Area Start -->
-    <section id="about-us-area-home4"  class="py100 bg-color">
+    <section id="about-us-area-home4" class="py100 bg-color">
         <div class="container" id="about">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-12">
