@@ -114,7 +114,7 @@
             <div class="row align-items-center justify-content-cente">
                 <div class="col-md-12 col-lg-6 offset-lg-3">
                     <div class="thank-you-content-left text-center mt-5">
-                        <h1 class="text-white mt-5">MCAST</h1>
+                        <h1 class="text-white mt-5 pt-5">MCAST</h1>
                         <!-- <img src="./assets/img/logo-lg.png" alt="Research & Innovation Expo 2021" style="filter: brightness(0) invert(1);" /> -->
                          <h2 class="text-white">Research & Innovation Expo 2021</h2>
 
