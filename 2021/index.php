@@ -77,7 +77,7 @@
                                 <li class="nav-item"><a class="nav-link" id="venue_btn" href="#venue"> Venue</a> </li>
                                 <li class="nav-item"><a class="nav-link" id="contact_btn" href="#contact"> Contact</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="./program.php"> Programme</a> </li>
+                                <li class="nav-item"><a class="nav-link" href="./program.php"> Programe</a> </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">
                                         Registration
@@ -451,19 +451,20 @@
 
     <!-- Contact Area Start -->
     <section id="contact" style="background: white;">
+
+        <div class="map-content">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.836352901914!2d14.504858357433543!3d35.87752700784814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e5ac2d87c4891%3A0x48ee141582b02a26!2sMCAST!5e0!3m2!1sen!2smt!4v1635775420058!5m2!1sen!2smt"></iframe>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-center text-center pb30">
-                        <h3 class="pb10">Contact</h3>
+                        <h3 class="pb10 pt10">Contact</h3>
                         <h2>Get in Touch</h2>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="map-content">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.836352901914!2d14.504858357433543!3d35.87752700784814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e5ac2d87c4891%3A0x48ee141582b02a26!2sMCAST!5e0!3m2!1sen!2smt!4v1635775420058!5m2!1sen!2smt"></iframe>
         </div>
         <div class="container">
             <div class="row">
@@ -637,15 +638,10 @@
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <!-- wow.js -->
     <script src="assets/js/wow.min.js"></script>
-    <!-- tilt.jquery.js -->
-    <script src="assets/js/tilt.jquery.js"></script>
     <!-- countdown.min.js -->
     <script src="assets/js/jquery.countdown.min.js"></script>
     <!-- magesloded -->
     <script src="assets/js/waypoints.min.js"></script>
-    <!-- pagination  JS -->
-    <script src="assets/js/pagination-bootpage.js"></script>
-    <script src="assets/js/pagination.js"></script>
     <!-- Magnific Popup Min JS -->
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <!--imagesloaded JS -->

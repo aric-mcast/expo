@@ -55,7 +55,7 @@
          <div class="row">
              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                  <div class="home-one-banner-content">
-                     <h1>Programme </h1>
+                     <h1>Programe </h1>
                      <h2>
                          Comming soon
                      </h2>
