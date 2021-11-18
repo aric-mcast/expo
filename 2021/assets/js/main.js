@@ -264,7 +264,7 @@
         });
         $('#contact_btn').on('click', function () {
             $("html, body").animate({
-                scrollTop: "5350"
+                scrollTop: "6000"
             }, 500);
         });
         $('#venue_btn').on('click', function () {

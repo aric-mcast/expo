@@ -450,13 +450,13 @@
 
 
     <!-- Contact Area Start -->
-    <section id="contact" style="background: white;">
+    <section style="background: white;">
 
         <div class="map-content">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3232.836352901914!2d14.504858357433543!3d35.87752700784814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e5ac2d87c4891%3A0x48ee141582b02a26!2sMCAST!5e0!3m2!1sen!2smt!4v1635775420058!5m2!1sen!2smt"></iframe>
         </div>
-        <div class="container">
+        <div id="contact" class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-center text-center pb30">
